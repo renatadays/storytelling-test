@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: 'Roboto Mono', monospace;
 }
 
 #zeit-container{
@@ -14,8 +17,9 @@
 #zeit-mask{
     width: 100px;
     height: 20px;
-    background: pink;
+    /* background: pink; */
     overflow: hidden;
+    color: white;
 }
 
 #zeit-list{
@@ -42,3 +46,14 @@
 /* .box:nth-child(even){
     background-color: aqua;
 } */
+
+#test{
+    width: 100ww;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10vw;
+}
