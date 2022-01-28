@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#zeit-container{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+}
+
+#zeit-mask{
+    width: 100px;
+    height: 20px;
+    background: pink;
+    overflow: hidden;
+}
+
+#zeit-list{
+    transform: translateY(0px);
+}
+
+.zeit{
+    font-size: 20px;
+    line-height: 1;
+    list-style: none;
+}
+
+.Box-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+}
+
+.box{
+    flex: 1;
+}
+
+/* .box:nth-child(even){
+    background-color: aqua;
+} */
